@@ -1,9 +1,10 @@
 {
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.18.1",
     "http": "^0.0.1-security"
   },
-  "scripts":{
+  "scripts": {
     "start": "node src/api.js"
   }
 }
