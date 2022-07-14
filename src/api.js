@@ -6,7 +6,7 @@ const port = process.env.BB_API_PORT
 app.use(cors());
 
 app.get('/', (req, res) => {
-  res.send({message: 'Hello World!'});
+  res.send({message: 'Deployment Successful!'});
 })
 
 app.listen(port, () => {
